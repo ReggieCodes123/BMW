@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     
 
     @IBAction func onInvestorSelect(_ sender: Any) {
-        print("HI")
+        print("Hey")
     }
     /*
     // MARK: - Navigation
