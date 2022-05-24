@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DFF269283D28C600ECC746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF268283D28C600ECC746 /* AppDelegate.swift */; };
+		18DFF26B283D28C600ECC746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF26A283D28C600ECC746 /* SceneDelegate.swift */; };
+		18DFF270283D28C600ECC746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DFF26E283D28C600ECC746 /* Main.storyboard */; };
+		18DFF272283D28C700ECC746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DFF271283D28C700ECC746 /* Assets.xcassets */; };
+		18DFF275283D28C700ECC746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DFF273283D28C700ECC746 /* LaunchScreen.storyboard */; };
+		18DFF280283D28C700ECC746 /* BMWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF27F283D28C700ECC746 /* BMWTests.swift */; };
+		18DFF28A283D28C700ECC746 /* BMWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF289283D28C700ECC746 /* BMWUITests.swift */; };
+		18DFF28C283D28C700ECC746 /* BMWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF28B283D28C700ECC746 /* BMWUITestsLaunchTests.swift */; };
+		18DFF29E283D82CF00ECC746 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF29D283D82CF00ECC746 /* LoginViewController.swift */; };
+		1B5C3A36F7D481F341909D8B /* Pods_BMW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D9425B254E531077EAB2D9 /* Pods_BMW.framework */; };
+		C7FF9A2FB0E4CBDBD848E744 /* Pods_BMW_BMWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B53522C4A038F40F20E351 /* Pods_BMW_BMWUITests.framework */; };
+		EA785887B3DD314587E7EACC /* Pods_BMWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A65780B86978D5AE30C8E /* Pods_BMWTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DFF27C283D28C700ECC746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DFF25D283D28C600ECC746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DFF264283D28C600ECC746;
+			remoteInfo = BMW;
+		};
+		18DFF286283D28C700ECC746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DFF25D283D28C600ECC746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DFF264283D28C600ECC746;
+			remoteInfo = BMW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DFF265283D28C600ECC746 /* BMW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DFF268283D28C600ECC746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DFF26A283D28C600ECC746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18DFF26F283D28C600ECC746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DFF271283D28C700ECC746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DFF274283D28C700ECC746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DFF276283D28C700ECC746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DFF27B283D28C700ECC746 /* BMWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DFF27F283D28C700ECC746 /* BMWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWTests.swift; sourceTree = "<group>"; };
+		18DFF285283D28C700ECC746 /* BMWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DFF289283D28C700ECC746 /* BMWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWUITests.swift; sourceTree = "<group>"; };
+		18DFF28B283D28C700ECC746 /* BMWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18DFF29D283D82CF00ECC746 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2342C72F833B81E29B3BC8BA /* Pods-BMW-BMWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMW-BMWUITests.debug.xcconfig"; path = "Target Support Files/Pods-BMW-BMWUITests/Pods-BMW-BMWUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38CBC676A4BC6C1ABEFD31DB /* Pods-BMWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWTests.debug.xcconfig"; path = "Target Support Files/Pods-BMWTests/Pods-BMWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72B53522C4A038F40F20E351 /* Pods_BMW_BMWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMW_BMWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F10E6D28BAED8A5EFBB219 /* Pods-BMW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMW.release.xcconfig"; path = "Target Support Files/Pods-BMW/Pods-BMW.release.xcconfig"; sourceTree = "<group>"; };
+		780A65780B86978D5AE30C8E /* Pods_BMWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5508DFFA0D157CB8B9A6D6 /* Pods-BMW-BMWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMW-BMWUITests.release.xcconfig"; path = "Target Support Files/Pods-BMW-BMWUITests/Pods-BMW-BMWUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D73ECCB32E0554ABC4F259A /* Pods-BMW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMW.debug.xcconfig"; path = "Target Support Files/Pods-BMW/Pods-BMW.debug.xcconfig"; sourceTree = "<group>"; };
+		AF54ED44E05F3000443CDB15 /* Pods-BMWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWTests.release.xcconfig"; path = "Target Support Files/Pods-BMWTests/Pods-BMWTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7D9425B254E531077EAB2D9 /* Pods_BMW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DFF262283D28C600ECC746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5C3A36F7D481F341909D8B /* Pods_BMW.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFF278283D28C700ECC746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA785887B3DD314587E7EACC /* Pods_BMWTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFF282283D28C700ECC746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FF9A2FB0E4CBDBD848E744 /* Pods_BMW_BMWUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D488FF1131427512EE5A26D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D73ECCB32E0554ABC4F259A /* Pods-BMW.debug.xcconfig */,
+				74F10E6D28BAED8A5EFBB219 /* Pods-BMW.release.xcconfig */,
+				2342C72F833B81E29B3BC8BA /* Pods-BMW-BMWUITests.debug.xcconfig */,
+				7F5508DFFA0D157CB8B9A6D6 /* Pods-BMW-BMWUITests.release.xcconfig */,
+				38CBC676A4BC6C1ABEFD31DB /* Pods-BMWTests.debug.xcconfig */,
+				AF54ED44E05F3000443CDB15 /* Pods-BMWTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18DFF25C283D28C600ECC746 = {
+			isa = PBXGroup;
+			children = (
+				18DFF267283D28C600ECC746 /* BMW */,
+				18DFF27E283D28C700ECC746 /* BMWTests */,
+				18DFF288283D28C700ECC746 /* BMWUITests */,
+				18DFF266283D28C600ECC746 /* Products */,
+				0D488FF1131427512EE5A26D /* Pods */,
+				26901A63D3F994C29BB461F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18DFF266283D28C600ECC746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF265283D28C600ECC746 /* BMW.app */,
+				18DFF27B283D28C700ECC746 /* BMWTests.xctest */,
+				18DFF285283D28C700ECC746 /* BMWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DFF267283D28C600ECC746 /* BMW */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF29A283D29E700ECC746 /* Model */,
+				18DFF299283D29DC00ECC746 /* View */,
+				18DFF298283D29D000ECC746 /* Controller */,
+				18DFF268283D28C600ECC746 /* AppDelegate.swift */,
+				18DFF26A283D28C600ECC746 /* SceneDelegate.swift */,
+				18DFF26E283D28C600ECC746 /* Main.storyboard */,
+				18DFF271283D28C700ECC746 /* Assets.xcassets */,
+				18DFF273283D28C700ECC746 /* LaunchScreen.storyboard */,
+				18DFF276283D28C700ECC746 /* Info.plist */,
+			);
+			path = BMW;
+			sourceTree = "<group>";
+		};
+		18DFF27E283D28C700ECC746 /* BMWTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF27F283D28C700ECC746 /* BMWTests.swift */,
+			);
+			path = BMWTests;
+			sourceTree = "<group>";
+		};
+		18DFF288283D28C700ECC746 /* BMWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF289283D28C700ECC746 /* BMWUITests.swift */,
+				18DFF28B283D28C700ECC746 /* BMWUITestsLaunchTests.swift */,
+			);
+			path = BMWUITests;
+			sourceTree = "<group>";
+		};
+		18DFF298283D29D000ECC746 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18DFF29D283D82CF00ECC746 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18DFF299283D29DC00ECC746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18DFF29A283D29E700ECC746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26901A63D3F994C29BB461F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7D9425B254E531077EAB2D9 /* Pods_BMW.framework */,
+				72B53522C4A038F40F20E351 /* Pods_BMW_BMWUITests.framework */,
+				780A65780B86978D5AE30C8E /* Pods_BMWTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DFF264283D28C600ECC746 /* BMW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DFF28F283D28C700ECC746 /* Build configuration list for PBXNativeTarget "BMW" */;
+			buildPhases = (
+				7457289F26618C492E53D8BB /* [CP] Check Pods Manifest.lock */,
+				18DFF261283D28C600ECC746 /* Sources */,
+				18DFF262283D28C600ECC746 /* Frameworks */,
+				18DFF263283D28C600ECC746 /* Resources */,
+				146D1FE5D08860E8962061FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMW;
+			productName = BMW;
+			productReference = 18DFF265283D28C600ECC746 /* BMW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DFF27A283D28C700ECC746 /* BMWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DFF292283D28C700ECC746 /* Build configuration list for PBXNativeTarget "BMWTests" */;
+			buildPhases = (
+				278C8BBB3E7132AF1B596A3B /* [CP] Check Pods Manifest.lock */,
+				18DFF277283D28C700ECC746 /* Sources */,
+				18DFF278283D28C700ECC746 /* Frameworks */,
+				18DFF279283D28C700ECC746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DFF27D283D28C700ECC746 /* PBXTargetDependency */,
+			);
+			name = BMWTests;
+			productName = BMWTests;
+			productReference = 18DFF27B283D28C700ECC746 /* BMWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18DFF284283D28C700ECC746 /* BMWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DFF295283D28C700ECC746 /* Build configuration list for PBXNativeTarget "BMWUITests" */;
+			buildPhases = (
+				CD1CAEED1A18D3081B46C77C /* [CP] Check Pods Manifest.lock */,
+				18DFF281283D28C700ECC746 /* Sources */,
+				18DFF282283D28C700ECC746 /* Frameworks */,
+				18DFF283283D28C700ECC746 /* Resources */,
+				336B9BEC4D78EC58FDC01E83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DFF287283D28C700ECC746 /* PBXTargetDependency */,
+			);
+			name = BMWUITests;
+			productName = BMWUITests;
+			productReference = 18DFF285283D28C700ECC746 /* BMWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DFF25D283D28C600ECC746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					18DFF264283D28C600ECC746 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					18DFF27A283D28C700ECC746 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 18DFF264283D28C600ECC746;
+					};
+					18DFF284283D28C700ECC746 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 18DFF264283D28C600ECC746;
+					};
+				};
+			};
+			buildConfigurationList = 18DFF260283D28C600ECC746 /* Build configuration list for PBXProject "BMW" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DFF25C283D28C600ECC746;
+			productRefGroup = 18DFF266283D28C600ECC746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DFF264283D28C600ECC746 /* BMW */,
+				18DFF27A283D28C700ECC746 /* BMWTests */,
+				18DFF284283D28C700ECC746 /* BMWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DFF263283D28C600ECC746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DFF275283D28C700ECC746 /* LaunchScreen.storyboard in Resources */,
+				18DFF272283D28C700ECC746 /* Assets.xcassets in Resources */,
+				18DFF270283D28C600ECC746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFF279283D28C700ECC746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFF283283D28C700ECC746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		146D1FE5D08860E8962061FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMW/Pods-BMW-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMW/Pods-BMW-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BMW/Pods-BMW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		278C8BBB3E7132AF1B596A3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMWTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		336B9BEC4D78EC58FDC01E83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMW-BMWUITests/Pods-BMW-BMWUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMW-BMWUITests/Pods-BMW-BMWUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BMW-BMWUITests/Pods-BMW-BMWUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7457289F26618C492E53D8BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1CAEED1A18D3081B46C77C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMW-BMWUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DFF261283D28C600ECC746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DFF29E283D82CF00ECC746 /* LoginViewController.swift in Sources */,
+				18DFF269283D28C600ECC746 /* AppDelegate.swift in Sources */,
+				18DFF26B283D28C600ECC746 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFF277283D28C700ECC746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DFF280283D28C700ECC746 /* BMWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFF281283D28C700ECC746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DFF28A283D28C700ECC746 /* BMWUITests.swift in Sources */,
+				18DFF28C283D28C700ECC746 /* BMWUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DFF27D283D28C700ECC746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DFF264283D28C600ECC746 /* BMW */;
+			targetProxy = 18DFF27C283D28C700ECC746 /* PBXContainerItemProxy */;
+		};
+		18DFF287283D28C700ECC746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DFF264283D28C600ECC746 /* BMW */;
+			targetProxy = 18DFF286283D28C700ECC746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DFF26E283D28C600ECC746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DFF26F283D28C600ECC746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DFF273283D28C700ECC746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DFF274283D28C700ECC746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DFF28D283D28C700ECC746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DFF28E283D28C700ECC746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DFF290283D28C700ECC746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D73ECCB32E0554ABC4F259A /* Pods-BMW.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BMW/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TMCFPitch2022.BMW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DFF291283D28C700ECC746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F10E6D28BAED8A5EFBB219 /* Pods-BMW.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BMW/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TMCFPitch2022.BMW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18DFF293283D28C700ECC746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CBC676A4BC6C1ABEFD31DB /* Pods-BMWTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TMCFPitch2022.BMWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMW.app/BMW";
+			};
+			name = Debug;
+		};
+		18DFF294283D28C700ECC746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF54ED44E05F3000443CDB15 /* Pods-BMWTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TMCFPitch2022.BMWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMW.app/BMW";
+			};
+			name = Release;
+		};
+		18DFF296283D28C700ECC746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2342C72F833B81E29B3BC8BA /* Pods-BMW-BMWUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TMCFPitch2022.BMWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BMW;
+			};
+			name = Debug;
+		};
+		18DFF297283D28C700ECC746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5508DFFA0D157CB8B9A6D6 /* Pods-BMW-BMWUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TMCFPitch2022.BMWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BMW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DFF260283D28C600ECC746 /* Build configuration list for PBXProject "BMW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DFF28D283D28C700ECC746 /* Debug */,
+				18DFF28E283D28C700ECC746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DFF28F283D28C700ECC746 /* Build configuration list for PBXNativeTarget "BMW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DFF290283D28C700ECC746 /* Debug */,
+				18DFF291283D28C700ECC746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DFF292283D28C700ECC746 /* Build configuration list for PBXNativeTarget "BMWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DFF293283D28C700ECC746 /* Debug */,
+				18DFF294283D28C700ECC746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DFF295283D28C700ECC746 /* Build configuration list for PBXNativeTarget "BMWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DFF296283D28C700ECC746 /* Debug */,
+				18DFF297283D28C700ECC746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DFF25D283D28C600ECC746 /* Project object */;
+}
