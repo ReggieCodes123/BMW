@@ -19,6 +19,8 @@ class RegistrationViewController: UIViewController {
     
     @IBOutlet weak var Segment: UISegmentedControl!
     
+    var newUser = PFUser()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,26 +29,33 @@ class RegistrationViewController: UIViewController {
     }
     
     @IBAction func CreateAccountButton(_ sender: Any) {
-        let newUser = PFUser()
+        newUser = PFUser()
         newUser.username = self.UsernameLabel.text
         newUser.email = self.EmailLabel.text
         newUser.password = self.PasswordLabel.text
-        newUser.signUpInBackground{(success: Bool, error: Error?) in
-        if let error = error{
-            print(error.localizedDescription)
-        } else {
-        print("User successfully registered!")
-        }}
+        newUser["bio"] = "test"
+        self.performSegue(withIdentifier: "RegistrationToBusinessBio", sender: sender)
+//        newUser.signUpInBackground{(success: Bool, error: Error?) in
+//        if let error = error{
+//            print(error.localizedDescription)
+//        } else {
+//            self.performSegue(withIdentifier: "RegistrationToBusinessBio", sender: sender)
+//            print("User successfully registered!")
+//        }}
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
+//     MARK: - Navigation
+//
+//     In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+//         Get the new view controller using segue.destination.
+//         Pass the selected object to the new view controller.\
+        if(segue.identifier == "RegistrationToBusinessBio" ){
+            let editBio = segue.destination as! EditBusinessBioViewController
+            editBio.user = self.newUser
+        }
     }
-    */
+    
 
 }

@@ -106,17 +106,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Af-mm-MWv">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Af-mm-MWv">
                                 <rect key="frame" x="40" y="246" width="310" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0hF-LT-aCo">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0hF-LT-aCo">
                                 <rect key="frame" x="40" y="320" width="310" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cON-ur-SY7">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cON-ur-SY7">
                                 <rect key="frame" x="40" y="394" width="310" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -166,56 +166,87 @@
                         <outlet property="PasswordLabel" destination="cON-ur-SY7" id="ZQG-Mt-dzt"/>
                         <outlet property="Segment" destination="XXc-1s-9Mx" id="VFa-K1-7RP"/>
                         <outlet property="UsernameLabel" destination="0hF-LT-aCo" id="xEh-ys-fvD"/>
+                        <segue destination="DTT-2U-fGw" kind="show" identifier="RegistrationToBusinessBio" id="7bB-0P-uTa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qMD-fE-tl7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="770.76923076923072" y="51.895734597156398"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit Business Bio View Controller-->
         <scene sceneID="QqH-4e-vsc">
             <objects>
-                <viewController id="DTT-2U-fGw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditBusinessBioViewController" automaticallyAdjustsScrollViewInsets="NO" id="DTT-2U-fGw" customClass="EditBusinessBioViewController" customModule="BMW" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="66T-Bw-nct">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="1446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eTO-Fr-6FC">
-                                <rect key="frame" x="112" y="116" width="139" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our MIssion Statement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkH-2g-7c9">
-                                <rect key="frame" x="94" y="251" width="174" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MIssion Statement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgo-k2-8wN">
-                                <rect key="frame" x="87" y="391" width="142" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MIssion Statement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfk-6B-e0A">
-                                <rect key="frame" x="70" y="446" width="142" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who are you " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaR-nR-u5d">
-                                <rect key="frame" x="94" y="362" width="100" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="SQU-AU-cdT">
+                                <rect key="frame" x="0.0" y="44" width="390" height="1402"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusinessBioCell" rowHeight="1081" id="WVe-Ct-0gb" customClass="BusinessBioCell" customModule="BMW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="1081"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WVe-Ct-0gb" id="FWK-1x-lmc">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="1081"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GMY-hW-R0U">
+                                                    <rect key="frame" x="20" y="23" width="350" height="345"/>
+                                                    <color key="backgroundColor" systemColor="labelColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="350" id="EZt-yv-lj7"/>
+                                                        <constraint firstAttribute="width" constant="350" id="fj7-YJ-oez"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Who are we " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N3V-Mu-lg0">
+                                                    <rect key="frame" x="0.0" y="390" width="390" height="691"/>
+                                                    <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="691" id="C4m-LW-cFG"/>
+                                                    </constraints>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="labelColor"/>
+                                            <constraints>
+                                                <constraint firstItem="N3V-Mu-lg0" firstAttribute="leading" secondItem="FWK-1x-lmc" secondAttribute="leading" id="3eE-Tm-G2T"/>
+                                                <constraint firstAttribute="trailing" secondItem="N3V-Mu-lg0" secondAttribute="trailing" id="DGq-TJ-HVx"/>
+                                                <constraint firstItem="GMY-hW-R0U" firstAttribute="top" secondItem="FWK-1x-lmc" secondAttribute="top" constant="20" id="Kin-WT-088"/>
+                                                <constraint firstAttribute="trailing" secondItem="GMY-hW-R0U" secondAttribute="trailing" constant="20" id="NTf-eE-EMS"/>
+                                                <constraint firstItem="N3V-Mu-lg0" firstAttribute="top" secondItem="GMY-hW-R0U" secondAttribute="bottom" constant="20" id="UEH-zw-f5N"/>
+                                                <constraint firstItem="GMY-hW-R0U" firstAttribute="leading" secondItem="FWK-1x-lmc" secondAttribute="leading" constant="20" id="Wno-Jv-XyO"/>
+                                                <constraint firstAttribute="bottom" secondItem="N3V-Mu-lg0" secondAttribute="bottom" id="rJy-VS-aUF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstItem="N3V-Mu-lg0" firstAttribute="width" secondItem="WVe-Ct-0gb" secondAttribute="width" id="z8y-FN-mTa"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="businessProfilePic" destination="GMY-hW-R0U" id="Ka3-Vr-0N9"/>
+                                            <outlet property="businessWhoAreWeText" destination="N3V-Mu-lg0" id="UiH-6e-wOk"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VXs-go-A0r"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SQU-AU-cdT" firstAttribute="leading" secondItem="VXs-go-A0r" secondAttribute="leading" id="OXL-Tt-Jyk"/>
+                            <constraint firstItem="SQU-AU-cdT" firstAttribute="top" secondItem="VXs-go-A0r" secondAttribute="top" id="Syc-ug-RRP"/>
+                            <constraint firstItem="VXs-go-A0r" firstAttribute="bottom" secondItem="SQU-AU-cdT" secondAttribute="bottom" id="ga2-Sb-BgC"/>
+                            <constraint firstItem="VXs-go-A0r" firstAttribute="trailing" secondItem="SQU-AU-cdT" secondAttribute="trailing" id="q2J-qA-Asf"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="t5t-Hs-lBF"/>
+                    <size key="freeformSize" width="390" height="1500"/>
+                    <connections>
+                        <outlet property="tableview" destination="SQU-AU-cdT" id="QZF-AO-t1M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6kY-Xp-b6c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,8 +254,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
