@@ -16,6 +16,7 @@
 		18DFF28A283D28C700ECC746 /* BMWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF289283D28C700ECC746 /* BMWUITests.swift */; };
 		18DFF28C283D28C700ECC746 /* BMWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF28B283D28C700ECC746 /* BMWUITestsLaunchTests.swift */; };
 		18DFF29E283D82CF00ECC746 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF29D283D82CF00ECC746 /* LoginViewController.swift */; };
+		18DFF2A0283D9A4500ECC746 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFF29F283D9A4500ECC746 /* RegistrationViewController.swift */; };
 		1B5C3A36F7D481F341909D8B /* Pods_BMW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D9425B254E531077EAB2D9 /* Pods_BMW.framework */; };
 		C7FF9A2FB0E4CBDBD848E744 /* Pods_BMW_BMWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B53522C4A038F40F20E351 /* Pods_BMW_BMWUITests.framework */; };
 		EA785887B3DD314587E7EACC /* Pods_BMWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780A65780B86978D5AE30C8E /* Pods_BMWTests.framework */; };
@@ -52,6 +53,7 @@
 		18DFF289283D28C700ECC746 /* BMWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWUITests.swift; sourceTree = "<group>"; };
 		18DFF28B283D28C700ECC746 /* BMWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMWUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		18DFF29D283D82CF00ECC746 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18DFF29F283D9A4500ECC746 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		2342C72F833B81E29B3BC8BA /* Pods-BMW-BMWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMW-BMWUITests.debug.xcconfig"; path = "Target Support Files/Pods-BMW-BMWUITests/Pods-BMW-BMWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		38CBC676A4BC6C1ABEFD31DB /* Pods-BMWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMWTests.debug.xcconfig"; path = "Target Support Files/Pods-BMWTests/Pods-BMWTests.debug.xcconfig"; sourceTree = "<group>"; };
 		72B53522C4A038F40F20E351 /* Pods_BMW_BMWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMW_BMWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				18DFF29D283D82CF00ECC746 /* LoginViewController.swift */,
+				18DFF29F283D9A4500ECC746 /* RegistrationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 			files = (
 				18DFF29E283D82CF00ECC746 /* LoginViewController.swift in Sources */,
 				18DFF269283D28C600ECC746 /* AppDelegate.swift in Sources */,
+				18DFF2A0283D9A4500ECC746 /* RegistrationViewController.swift in Sources */,
 				18DFF26B283D28C600ECC746 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
