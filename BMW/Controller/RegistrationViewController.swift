@@ -33,15 +33,27 @@ class RegistrationViewController: UIViewController {
         newUser.username = self.UsernameLabel.text
         newUser.email = self.EmailLabel.text
         newUser.password = self.PasswordLabel.text
-        newUser["bio"] = "test"
-        self.performSegue(withIdentifier: "RegistrationToBusinessBio", sender: sender)
-//        newUser.signUpInBackground{(success: Bool, error: Error?) in
-//        if let error = error{
-//            print(error.localizedDescription)
-//        } else {
-//            self.performSegue(withIdentifier: "RegistrationToBusinessBio", sender: sender)
-//            print("User successfully registered!")
-//        }}
+        if Segment.selectedSegmentIndex == 0 {
+            newUser["type"] = "Investor"
+            self.performSegue(withIdentifier: "RegistrationToInvestorBio", sender: sender)
+//            newUser.signUpInBackground{(success: Bool, error: Error?) in
+//            if let error = error{
+//                print(error.localizedDescription)
+//            } else {
+//                self.performSegue(withIdentifier: "RegistrationToInvestorBio", sender: sender)
+//                print("User successfully registered!")
+//            }}
+        } else {
+            newUser["type"] = "Business"
+            self.performSegue(withIdentifier: "RegistrationToBusinessBio", sender: sender)
+//            newUser.signUpInBackground{(success: Bool, error: Error?) in
+//            if let error = error{
+//                print(error.localizedDescription)
+//            } else {
+//                self.performSegue(withIdentifier: "RegistrationToBusinessBio", sender: sender)
+//                print("User successfully registered!")
+//            }}
+        }
     }
     
     
@@ -53,6 +65,9 @@ class RegistrationViewController: UIViewController {
 //         Pass the selected object to the new view controller.\
         if(segue.identifier == "RegistrationToBusinessBio" ){
             let editBio = segue.destination as! EditBusinessBioViewController
+            editBio.user = self.newUser
+        }else if(segue.identifier == "RegistrationtoInvestorBio"){
+            let editBio = segue.destination as! EditInvestorBioViewController
             editBio.user = self.newUser
         }
     }

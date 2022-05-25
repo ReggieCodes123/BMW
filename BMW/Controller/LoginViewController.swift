@@ -27,6 +27,7 @@ class LoginViewController: UIViewController {
                 print("User log in failed: \(error.localizedDescription)")
             } else {
                 print("user logged in successfully")
+                
                 //display view controller that needs to shown after successful login
             }
         }

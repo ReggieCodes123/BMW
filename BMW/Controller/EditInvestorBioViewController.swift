@@ -1,22 +1,21 @@
 //
-//  EditBusinessBioViewController.swift
+//  EditInvestorBioViewController.swift
 //  BMW
 //
-//  Created by TMCF on 5/24/22.
+//  Created by TMCF on 5/25/22.
 //
 
 import UIKit
 import Parse
 
-class EditBusinessBioViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+class EditInvestorBioViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
     var user = PFUser()
-    @IBOutlet weak var tableview: UITableView!
     
+    @IBOutlet weak var tableview: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(user.username ?? "")
-        tableview.delegate = self
+        tableview.dataSource = self
         tableview.dataSource = self
         // Do any additional setup after loading the view.
     }
@@ -26,10 +25,11 @@ class EditBusinessBioViewController: UIViewController, UITableViewDelegate, UITa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableview.dequeueReusableCell(withIdentifier: "BusinessBioCell") as! BusinessBioCell
+        let cell = tableview.dequeueReusableCell(withIdentifier: "InvestorBioCell") as! InvestorBioCell
         return cell
     }
-
+    
+    
     /*
     // MARK: - Navigation
 
